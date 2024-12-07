@@ -576,6 +576,7 @@ int main()
 			//更新敌人位置
 			for (Enemy* enemy : enemy_list)
 				enemy->Move(player);
+
 			//检测敌人和玩家的碰撞
 			for (Enemy* enemy : enemy_list)
 			{
