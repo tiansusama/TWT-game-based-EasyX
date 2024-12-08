@@ -5,13 +5,9 @@
 #pragma comment(lib,"MSIMG32.LIB")
 #pragma comment(lib,"Winmm.lib")
 
-inline void putimage_alpha(int x, int y, IMAGE* img)
-{
-	int w = img->getwidth();
-	int h = img->getheight();
-	AlphaBlend(GetImageHDC(NULL), x, y, w, h,
-		GetImageHDC(img), 0, 0, w, h, { AC_SRC_OVER,0,255,AC_SRC_ALPHA });
-}
+#include "graphics_utils.h"
+
+
 
 int idx_current_anim = 0;
 
