@@ -1,5 +1,5 @@
 #pragma once
-#include "graphics.h"
+#include <graphics.h>
 #pragma comment(lib,"MSIMG32.LIB")
 
 inline void putimage_alpha(int x, int y, IMAGE* img)
