@@ -129,6 +129,19 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Atlas.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="factory.h" />
+    <ClInclude Include="graphics_utils.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="QuitGameButton.h" />
+    <ClInclude Include="StartGameButton.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
